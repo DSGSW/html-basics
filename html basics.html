@@ -32,25 +32,21 @@
       </ol>
       <!--botones de radio y checkboxes-->
       
-        <label for="indoor">
-          <input id="indoor" type="radio" name="indoor-outdoor" />
-          Indoor</label
-        >
-        <label for="outdoor"
-          ><input id="outdoor" type="radio" name="indoor-outdoor" />
-          Outdoor</label
-        ><br />
-        <label for="loving"
-          ><input id="loving" type="checkbox" name="personality" />
-          Loving</label
-        >
-        <label for="lazy"
-          ><input id="lazy" type="checkbox" name="personality" /> Lazy</label
-        >
-        <label for="energetic"
-          ><input id="energetic" type="checkbox" name="personality" />
-          Energetic</label
-        ><br />
+      <label for="indoor">
+        <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+<!-- Para tener una verificacion por defecto se usa ckecked, se coloca al final del input y se puede usar tanto en un checkbox como en un radio -->
+    <label for="outdoor">
+      <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+      <br>
+    <label for="loving">
+      <input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+
+    <label for="lazy">
+      <input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+
+    <label for="energetic">
+      <input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label>
+      <br>
         <form action="https://www.frcatphotoapp.com/submt-cat-photo"></form>
         <!-- Requerir un campo para completar  -->
         <input type="text" placeholder="cat photo URL" required />
