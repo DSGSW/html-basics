@@ -1,0 +1,62 @@
+height: es para regular la altura
+
+width: es para regular el ancho 
+
+padding: es para ver cuantos px cubre 
+
+strong: es para las letras negras
+
+u: sirve para subrayar un texto  
+
+em: espara darle enfacis a un texto 
+
+s: es para tacharlo 
+
+font-size: es para ver el tamaño del parrafo 
+
+	rgba:
+r = red
+g = green
+b = blue
+a = alfa/nivel de opacidad
+
+La propiedad box-shadow aplica una o más sombras a un elemento.
+
+La propiedad box-shadow toma los siguientes valores, en orden:
+
+offset-x (qué tan lejos extender la sombra horizontalmente desde el elemento)
+offset-y (qué tan lejos extender la sombra verticalmente desde el elemento)
+blur-radius
+spread-radius
+color
+
+La propiedad opacity en CSS se usa para ajustar la opacidad o, por el contrario, la transparencia de un elemento.
+
+Un valor de 1 es opaco, que no es transparente en absoluto.
+Un valor de 0.5 es la mitad transparente.
+Un valor de 0 es completamente transparente.
+
+La siguiente tabla muestra como los diferentes valores de text-transform cambian el texto de ejemplo "Transformame".
+
+Valor	Resultado
+lowercase	"Transformame"
+uppercase	"TRANSFORMAME"
+capitalize	"Transformame"
+initial	Usa el valor predeterminado
+inherit	Utiliza el valor text-transform del elemento principal
+none	Predeterminado: Usa el texto original
+
+Se establece el font-size de cada etiqueta de título en el último desafío, aquí podrás ajustar el font-weight.
+
+La propiedad font-weight establece que tan gruesos o delgados son los caracteres en una sección de texto.
+
+La propiedad font-size en CSS no se limita a los títulos, se puede aplicar a cualquier elemento que contenga texto.
+
+line-height: para cambiar la altura de cada línea en un bloque de texto. Como sugiere el nombre, cambia la cantidad de espacio vertical 
+
+Una diferencia clave entre las posiciones fixed y absolute es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
+
+
+Se suele pensar que Hue es el "color". Si imaginas un espectro de colores con un rojo en la izquierda que se torna verde en el medio y azul en la derecha, el tono es donde cabe un color a lo largo de esta línea. En hsl(), el tono usa un concepto de círculo cromático en lugar del espectro, donde el ángulo del color en el círculo se da como un valor entre 0 y 360.
+
+
