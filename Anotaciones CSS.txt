@@ -60,3 +60,12 @@ Una diferencia clave entre las posiciones fixed y absolute es que un elemento co
 Se suele pensar que Hue es el "color". Si imaginas un espectro de colores con un rojo en la izquierda que se torna verde en el medio y azul en la derecha, el tono es donde cabe un color a lo largo de esta línea. En hsl(), el tono usa un concepto de círculo cromático en lugar del espectro, donde el ángulo del color en el círculo se da como un valor entre 0 y 360.
 
 
+La propiedad order se utiliza para indicarle a CSS el orden en que aparecen los elementos flexibles en el contenedor flex. Por defecto, los elementos aparecerán en el mismo orden que vienen en el HTML de origen. La propiedad toma números como valores, y se pueden usar números negativos.
+
+Convertir un elemento a una cuadrícula solo afecta el comportamiento de sus descendientes directos. Entonces, al convertir un descendiente directo a una cuadrícula, obtienes una cuadrícula dentro de una cuadrícula.
+
+Por ejemplo, al establecer las propiedades display and grid-template-columns del elemento con clase item3, creas una cuadrícula dentro de tu cuadrícula. 
+
+
+
+
