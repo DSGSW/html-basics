@@ -1,0 +1,31 @@
+header{
+    color: black;
+    margin: 10px;
+
+    font-size: 1.8em;
+font-weight: thin;
+border-bottom: 900px;
+border-color: black;
+margin-bottom: 10;
+}
+    
+    
+
+.main-section{
+    font-size: 1.15rem;
+    opacity: .7;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    
+}
+
+.navbar{
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
